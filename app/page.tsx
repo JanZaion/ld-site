@@ -1,5 +1,14 @@
+'use client';
+
+import styled from 'styled-components';
+
+const StyledDiv = styled.div`
+  color: red;
+  font-size: 50px;
+`;
+
 const Home = () => {
-  return <div>add stuff</div>;
+  return <StyledDiv>add stuff</StyledDiv>;
 };
 
 export default Home;
