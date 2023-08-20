@@ -1,4 +1,5 @@
-type Thing = {
-  name: string;
-  age: number;
+type BlogPost = {
+  id: string;
+  title: string;
+  date: string;
 };
