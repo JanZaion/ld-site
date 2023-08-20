@@ -2,6 +2,7 @@ import { About } from './components/about/About';
 import { Heading } from './components/heading/Heading';
 import { Posts } from './components/Posts';
 import { Services } from './components/services/Services';
+import { Work } from './components/work/Work';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Heading />
       <About />
       <Services />
+      <Work />
       <Posts />
     </main>
   );
