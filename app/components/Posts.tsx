@@ -1,8 +1,8 @@
-import { getSortedPostsData } from '@/lib/posts';
-
 import ListItem from './ListItem';
 
-export default function Posts() {
+import { getSortedPostsData } from '@/lib/posts';
+
+export const Posts = () => {
   const posts = getSortedPostsData();
 
   return (
@@ -15,4 +15,6 @@ export default function Posts() {
       </ul>
     </section>
   );
-}
+};
+
+export default Posts;

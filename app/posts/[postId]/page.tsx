@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
-import getFormattedDate from '@/lib/getFormattedDate';
+import { getFormattedDate } from '@/lib/getFormattedDate';
 import { getSortedPostsData, getPostData } from '@/lib/posts';
 
 export function generateStaticParams() {
@@ -33,7 +33,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
   const posts = getSortedPostsData();
   const { postId } = params;
 
-  if (!posts.find((post) => post.id === postId)) notFound();
+  if (!posts.some((post) => post.id === postId)) notFound();
 
   const { title, date, contentHtml } = await getPostData(postId);
 
@@ -44,6 +44,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
       <h1>{title}</h1>
       <p>{pubDate}</p>
       <article>
+        {/* eslint-disable-next-line react/no-danger */}
         <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
         <p>
           <Link href="/">← Back to home</Link>

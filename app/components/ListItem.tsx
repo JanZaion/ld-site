@@ -1,20 +1,29 @@
 import Link from 'next/link';
 
-import getFormattedDate from '@/lib/getFormattedDate';
+import { getFormattedDate } from '@/lib/getFormattedDate';
 
-type Props = {
+type PostProps = {
   post: BlogPost;
 };
 
-export default function ListItem({ post }: Props) {
-  const { id, title, date } = post;
+const ListItem = ({ post: { id, title, date } }: PostProps) => {
   const formattedDate = getFormattedDate(date);
 
   return (
     <li>
-      <Link href={`/posts/${id}`}>{title}</Link>
+      <Link
+        href={`/posts/${id}`}
+        style={{
+          color: 'red',
+          textDecoration: 'underline',
+        }}
+      >
+        {title}
+      </Link>
       <br />
       <p>{formattedDate}</p>
     </li>
   );
-}
+};
+
+export default ListItem;
