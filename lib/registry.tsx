@@ -3,14 +3,7 @@
 import { useServerInsertedHTML } from 'next/navigation';
 import { useState } from 'react';
 import type { ReactNode } from 'react';
-import {
-  ThemeProvider,
-  ServerStyleSheet,
-  StyleSheetManager,
-} from 'styled-components';
-
-import GlobalStyles from '@/app/styles/globals';
-import { defaultTheme } from '@/app/themes/default';
+import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
 
 const StyledComponentsRegistry = ({ children }: { children: ReactNode }) => {
   // Only create stylesheet once with lazy initial state
@@ -27,12 +20,7 @@ const StyledComponentsRegistry = ({ children }: { children: ReactNode }) => {
 
   return (
     <StyleSheetManager sheet={styledComponentsStyleSheet.instance}>
-      <ThemeProvider theme={defaultTheme}>
-        <>
-          <GlobalStyles />
-          {children}
-        </>
-      </ThemeProvider>
+      {children}
     </StyleSheetManager>
   );
 };
