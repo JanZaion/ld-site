@@ -51,13 +51,15 @@ export const Services = () => {
     <section>
       <h2>Services</h2>
       <div>
-        {services.map((service) => (
-          <div key={service.heading}>
-            <service.icon className={styles.serviceIcon} />
-            <h3>{service.heading}</h3>
-            <p>{service.service}</p>
-          </div>
-        ))}
+        <div className={styles.serviceBox}>
+          {services.map((service) => (
+            <div key={service.heading}>
+              <service.icon className={styles.serviceIcon} />
+              <h3>{service.heading}</h3>
+              <p>{service.service}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
