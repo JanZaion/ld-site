@@ -79,3 +79,8 @@ a {
   color: var(--accent-color);
   font-weight: var(--medium);
 }
+
+section {
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+}
