@@ -7,13 +7,7 @@ import { Work } from './components/work/Work';
 
 const Home = () => {
   return (
-    <main
-      // clear this crap when bringing in sidebar nav
-      style={{
-        maxWidth: '800px',
-        margin: '0 auto',
-      }}
-    >
+    <main>
       <Heading />
       <About />
       <Services />

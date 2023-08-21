@@ -1,3 +1,9 @@
 .postList {
   list-style: none;
 }
+
+.listLink {
+  font-size: var(--h3);
+  color: var(--heading-color);
+  text-decoration-color: var(--accent-color);
+}

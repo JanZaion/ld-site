@@ -18,7 +18,12 @@ export const RecentWriting = () => {
       </h2>
       <ul className={styles.postList}>
         {posts.slice(0, 4).map((post) => (
-          <ListItem key={post.id} post={post} />
+          <ListItem
+            key={post.id}
+            isArrow
+            linkClassName={styles.listLink}
+            post={post}
+          />
         ))}
       </ul>
       → <Link href="/posts">See all posts</Link>
