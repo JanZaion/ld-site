@@ -6,8 +6,6 @@ import { Dot } from '../dot/Dot';
 
 import styles from './Contact.module.css';
 
-const iconColor = '#a1a1aa';
-
 export const Contact = () => (
   <section className={styles.headingBox}>
     <h2>
@@ -25,7 +23,7 @@ export const Contact = () => (
           rel="noreferrer"
           target="_blank"
         >
-          <BsMailbox className={styles.contactIcon} fill={iconColor} />
+          <BsMailbox className={styles.contactIcon} />
           lucas@dolnicek.whatever
         </a>
       </li>
@@ -35,7 +33,7 @@ export const Contact = () => (
           rel="noreferrer"
           target="_blank"
         >
-          <AiFillLinkedin className={styles.contactIcon} fill={iconColor} />
+          <AiFillLinkedin className={styles.contactIcon} />
           in/lukasdolnicek
         </a>
       </li>
