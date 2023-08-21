@@ -1,6 +1,11 @@
+import { Dot } from '../dot/Dot';
+
 export const Work = () => (
   <section>
-    <h2>My Work</h2>
+    <h2>
+      My Work
+      <Dot />
+    </h2>
     <p>
       Built up organic channels from the scratch, now generating ⅔ of all MQLs
       for a SaaS vendor.

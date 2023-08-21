@@ -1,0 +1,19 @@
+.contactList {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contactList li {
+  position: relative;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.contactIcon {
+  position: absolute;
+  top: 55%;
+  left: 0rem;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+}
