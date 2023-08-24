@@ -1,7 +1,7 @@
 import { Dot } from '../dot/Dot';
 
 export const Work = () => (
-  <section>
+  <section id="work">
     <h2>
       My Work
       <Dot />

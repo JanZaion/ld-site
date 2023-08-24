@@ -48,24 +48,22 @@ const services: ServicesArray = [
   },
 ];
 
-export const Services = () => {
-  return (
-    <section>
-      <h2>
-        Services
-        <Dot />
-      </h2>
-      <div>
-        <div className={styles.serviceBox}>
-          {services.map((service) => (
-            <div key={service.heading}>
-              <service.icon className={styles.serviceIcon} />
-              <h3>{service.heading}</h3>
-              <p>{service.service}</p>
-            </div>
-          ))}
-        </div>
+export const Services = () => (
+  <section id="services">
+    <h2>
+      Services
+      <Dot />
+    </h2>
+    <div>
+      <div className={styles.serviceBox}>
+        {services.map((service) => (
+          <div key={service.heading}>
+            <service.icon className={styles.serviceIcon} />
+            <h3>{service.heading}</h3>
+            <p>{service.service}</p>
+          </div>
+        ))}
       </div>
-    </section>
-  );
-};
+    </div>
+  </section>
+);

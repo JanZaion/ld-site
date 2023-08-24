@@ -19,6 +19,7 @@ body {
   line-height: 1.75;
   color: var(--text-color);
   background-color: var(--background-color);
+  padding: 0 2rem;
 }
 
 h1,
@@ -83,5 +84,4 @@ a {
 
 section {
   margin-bottom: 2rem;
-  padding: 0 2rem;
 }

@@ -6,7 +6,7 @@ import styles from './About.module.css';
 
 export const About = () => {
   return (
-    <section>
+    <section id="about">
       <h2>
         About
         <Dot />

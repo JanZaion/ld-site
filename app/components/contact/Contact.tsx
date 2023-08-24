@@ -7,7 +7,7 @@ import { Dot } from '../dot/Dot';
 import styles from './Contact.module.css';
 
 export const Contact = () => (
-  <section className={styles.headingBox}>
+  <section className={styles.headingBox} id="contact">
     <h2>
       Contact
       <Dot />
