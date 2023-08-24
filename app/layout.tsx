@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
+import { Footer } from './components/footer/Footer';
 import { Header } from './components/header/Header';
 
 export const metadata: Metadata = {
@@ -19,6 +20,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
