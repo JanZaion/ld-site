@@ -8,16 +8,17 @@
   color: var(--heading-color);
   padding: 10px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .burgerMenu {
   position: fixed;
-  bottom: 150px;
+  bottom: 60px;
   left: 50%;
   width: 47%;
-  height: 120px;
-  background-color: #666;
-  color: #fff;
+  height: 50%;
+  background-color: var(--background-color);
+  color: var(--subtitle-color);
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;

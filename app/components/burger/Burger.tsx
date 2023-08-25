@@ -9,6 +9,7 @@ export const Burger = () => {
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
 
   const toggleBurgerOpen = () => setIsBurgerOpen((prev) => !prev);
+  const burgerClose = () => setIsBurgerOpen(false);
 
   return (
     <>
@@ -18,11 +19,6 @@ export const Burger = () => {
       />
       <dialog className={styles.burgerMenu} open={isBurgerOpen}>
         <p>Greetings, one and all!</p>
-        <form method="dialog">
-          <button onClick={toggleBurgerOpen} type="button">
-            OK
-          </button>
-        </form>
       </dialog>
     </>
   );
