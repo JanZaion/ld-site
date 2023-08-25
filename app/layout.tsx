@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
+import { Burger } from './components/burger/Burger';
 import { Footer } from './components/footer/Footer';
 import { Header } from './components/header/Header';
 
@@ -19,6 +20,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
     <html lang="en">
       <body>
         <Header />
+        <Burger />
         {children}
         <Footer />
       </body>

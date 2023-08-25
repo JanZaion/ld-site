@@ -1,0 +1,24 @@
+.burgerIcon {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: var(--accent-color);
+  color: var(--heading-color);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.burgerMenu {
+  position: fixed;
+  bottom: 150px;
+  left: 10px;
+  width: 100px;
+  height: 120px;
+  background-color: #666;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
