@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
 import { getFormattedDate } from '@/lib/getFormattedDate';
-import { getSortedPostsData, getPostData } from '@/lib/posts';
+import { getSortedPostsData, getPostData } from '@/lib/blog';
 
 export function generateStaticParams() {
   const posts = getSortedPostsData();

@@ -3,7 +3,7 @@ import { ListItem } from '../components/listItem/ListItem';
 
 import styles from './Blog.module.css';
 
-import { getSortedPostsData } from '@/lib/posts';
+import { getSortedPostsData } from '@/lib/blog';
 
 const Blog = () => {
   const posts = getSortedPostsData();

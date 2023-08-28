@@ -26,13 +26,13 @@ export const ListItem = ({
   return (
     <li className={liClassName}>
       <span className={styles.arrowSpan}>{isArrow && `→ `}</span>
-      <Link className={linkClassName} href={`/posts/${id}`}>
+      <Link className={linkClassName} href={`/blog/${id}`}>
         {title}
       </Link>
       <br />
       <p>{formattedDate}</p>
       {isPerex && <p>{perex}</p>}
-      {isReadMore && <Link href={`/posts/${id}`}>Read more</Link>}
+      {isReadMore && <Link href={`/blog/${id}`}>Read more</Link>}
     </li>
   );
 };

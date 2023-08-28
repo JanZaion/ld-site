@@ -18,7 +18,7 @@ export const Navigation = () => (
         <Link href="/#work">Work</Link>
       </li>
       <li>
-        <Link href="/posts">Blog</Link>
+        <Link href="/blog">Blog</Link>
       </li>
       <li>
         <Link href="/#contact">Contact</Link>

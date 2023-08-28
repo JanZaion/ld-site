@@ -5,7 +5,7 @@ import { ListItem } from '../listItem/ListItem';
 
 import styles from './RecentWriting.module.css';
 
-import { getSortedPostsData } from '@/lib/posts';
+import { getSortedPostsData } from '@/lib/blog';
 
 export const RecentWriting = () => {
   const posts = getSortedPostsData();
@@ -26,7 +26,7 @@ export const RecentWriting = () => {
           />
         ))}
       </ul>
-      → <Link href="/posts">See all posts</Link>
+      → <Link href="/blog">See all posts</Link>
     </section>
   );
 };
