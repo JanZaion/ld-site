@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Dot } from '../dot/Dot';
+import GetInTouchButton from '../getInTouchButton/GetInTouchButton';
 
 import styles from './Heading.module.css';
 
@@ -11,6 +12,6 @@ export const Heading = () => (
       <br />I create profitable content for B2B tech
       <Dot />
     </h1>
-    <button type="button">Get in touch</button>
+    <GetInTouchButton />
   </section>
 );
