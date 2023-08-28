@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 import { Burger } from './components/burger/Burger';
-import { Footer } from './components/footer/Footer';
 import { Header } from './components/header/Header';
+import { MainContainer } from './components/mainContainer/MainContainer';
 
 export const metadata: Metadata = {
   title: 'Lucas Site',
@@ -19,10 +19,12 @@ const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html lang="en">
       <body>
-        <Header />
         <Burger />
-        {children}
-        <Footer />
+        <MainContainer>
+          <Header />
+          {children}
+          <div />
+        </MainContainer>
       </body>
     </html>
   );
