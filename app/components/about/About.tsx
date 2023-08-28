@@ -28,9 +28,9 @@ export const About = () => {
         <div>
           <Image
             alt="handsome genious"
-            height={450}
+            height={390}
             src="/lukas-dolnicek-profile-pic.webp"
-            width={300}
+            width={260}
           />
         </div>
       </div>
