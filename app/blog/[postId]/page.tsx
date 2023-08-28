@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
-import { getFormattedDate } from '@/lib/getFormattedDate';
 import { getSortedPostsData, getPostData } from '@/lib/blog';
+import { getFormattedDate } from '@/lib/getFormattedDate';
+
+// import styles from './Post.module.css';
 
 export function generateStaticParams() {
   const posts = getSortedPostsData();
