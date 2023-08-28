@@ -1,0 +1,18 @@
+.nav {
+  list-style-type: '→ ';
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav a {
+  font-size: var(--h4);
+  text-decoration: none;
+  color: var(--heading-color);
+  transition: color 0.2s ease-in-out;
+}
+
+.nav a:hover {
+  color: var(--accent-color);
+}

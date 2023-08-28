@@ -3,6 +3,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
+import { Dot } from '../dot/Dot';
+import { Navigation } from '../navigation/Navigation';
+
 import styles from './Burger.module.css';
 
 export const Burger = () => {
@@ -42,7 +45,11 @@ export const Burger = () => {
         />
       </div>
       <dialog ref={menuRef} className={styles.burgerMenu} open={isBurgerOpen}>
-        <p>Greetings, one and all!</p>
+        <p>
+          Lukas Dolnicek
+          <Dot />
+        </p>
+        <Navigation />
       </dialog>
     </>
   );
