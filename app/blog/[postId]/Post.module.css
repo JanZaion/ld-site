@@ -1,0 +1,23 @@
+.blogContainer {
+}
+
+.blogContainer ul,
+.blogContainer ol {
+  margin-left: 2em;
+}
+
+.blogContainer blockquote {
+  border-left: 4px solid var(--subtitle-color);
+  padding-left: 1em;
+  font-style: italic;
+}
+
+.blogContainer code {
+  background-color: #f5f5f5;
+  padding: 2px 4px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.bottomLink {
+  margin-bottom: 2rem;
+}

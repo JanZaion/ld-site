@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
 import { Burger } from './components/burger/Burger';
+import { Footer } from './components/footer/Footer';
 import { Header } from './components/header/Header';
 import { MainContainer } from './components/mainContainer/MainContainer';
 
@@ -25,6 +26,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
           {children}
           <div />
         </MainContainer>
+        <Footer />
       </body>
     </html>
   );

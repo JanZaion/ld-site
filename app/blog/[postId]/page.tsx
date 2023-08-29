@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
+import styles from './Post.module.css';
+
 import { getSortedPostsData, getPostData } from '@/lib/blog';
 import { getFormattedDate } from '@/lib/getFormattedDate';
-
-// import styles from './Post.module.css';
 
 export function generateStaticParams() {
   const posts = getSortedPostsData();
@@ -42,16 +42,16 @@ export default async function Post({ params }: { params: { postId: string } }) {
   const pubDate = getFormattedDate(date);
 
   return (
-    <main>
+    <main className={styles.blogContainer}>
       <h1>{title}</h1>
       <p>{pubDate}</p>
       <article>
         {/* eslint-disable-next-line react/no-danger */}
         <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
-        <p>
-          <Link href="/">← Back to home</Link>
-        </p>
       </article>
+      <div className={styles.bottomLink}>
+        <Link href="/blog">← Back to articles</Link>
+      </div>
     </main>
   );
 }

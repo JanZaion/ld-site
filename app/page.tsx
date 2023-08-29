@@ -1,6 +1,5 @@
 import { About } from './components/about/About';
 import { Contact } from './components/contact/Contact';
-import { Footer } from './components/footer/Footer';
 import { Heading } from './components/heading/Heading';
 import { RecentWriting } from './components/recentWriting/RecentWriting';
 import { Services } from './components/services/Services';
@@ -15,7 +14,6 @@ const Home = () => {
       <Work />
       <RecentWriting />
       <Contact />
-      <Footer />
     </main>
   );
 };

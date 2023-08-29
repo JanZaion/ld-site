@@ -2,9 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
   padding: 15px 0;
   width: 100%;
   border-top: 1px solid var(--text-color);
+  max-width: var(--content-max-width);
 }
 
 .linkedinIcon {

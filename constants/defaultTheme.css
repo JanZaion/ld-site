@@ -4,7 +4,6 @@
   --background-color: #18181b;
   --text-color: #a1a1aa;
   --subtitle-color: #79818f;
-  --hex: #2f2f31;
 
   --font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, 'Apple Color Emoji',
@@ -20,6 +19,8 @@
   --h5: 1rem;
   --h6: 1rem;
   --nav-li: 1.25rem;
+
+  --content-max-width: 768px;
 }
 
 /* 
