@@ -3,6 +3,7 @@ import path from 'path';
 
 import matter from 'gray-matter';
 import { remark } from 'remark';
+import externalLinks from 'remark-external-links';
 import html from 'remark-html';
 
 const postsDirectory = path.join(process.cwd(), 'blogposts');
@@ -43,6 +44,7 @@ export async function getPostData(id: string) {
   const matterResult = matter(fileContents);
 
   const processedContent = await remark()
+    .use(externalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] })
     .use(html)
     .process(matterResult.content);
 
