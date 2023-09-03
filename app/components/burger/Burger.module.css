@@ -20,9 +20,11 @@
   background-color: var(--background-color);
   color: var(--subtitle-color);
   padding: 20px;
+  padding-left: 26px;
   border-radius: 5px;
   margin-bottom: 10px;
   z-index: 9999;
+  white-space: nowrap;
 }
 
 @media (min-width: 768px) {
