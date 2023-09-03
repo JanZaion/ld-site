@@ -28,6 +28,7 @@ export function generateMetadata({ params }: { params: { postId: string } }) {
 
   return {
     title: post.title,
+    description: post.description,
   };
 }
 

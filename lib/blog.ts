@@ -27,6 +27,7 @@ export function getSortedPostsData() {
       title: String(matterResult.data.title),
       date: String(matterResult.data.date),
       perex: String(matterResult.data.perex),
+      description: String(matterResult.data.description),
     };
 
     // Combine the data with the id
@@ -55,6 +56,7 @@ export async function getPostData(id: string) {
     title: String(matterResult.data.title),
     date: String(matterResult.data.date),
     perex: String(matterResult.data.perex),
+    description: String(matterResult.data.description),
     contentHtml,
   };
 
