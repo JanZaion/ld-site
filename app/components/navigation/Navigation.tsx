@@ -6,22 +6,22 @@ export const Navigation = () => (
   <nav>
     <ul className={styles.nav}>
       <li>
-        <Link href="/#home">Home</Link>
+        <Link href="/#home">Domů</Link>
       </li>
       <li>
-        <Link href="/#about">About</Link>
+        <Link href="/#about">O mně</Link>
       </li>
       <li>
-        <Link href="/#services">Services</Link>
+        <Link href="/#services">Služby</Link>
       </li>
       <li>
-        <Link href="/#work">Work</Link>
+        <Link href="/#work">Práce</Link>
       </li>
       <li>
         <Link href="/blog">Blog</Link>
       </li>
       <li>
-        <Link href="/#contact">Contact</Link>
+        <Link href="/#contact">Kontakt</Link>
       </li>
     </ul>
   </nav>

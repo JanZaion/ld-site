@@ -9,12 +9,12 @@ import styles from './Contact.module.css';
 export const Contact = () => (
   <section id="contact">
     <h2>
-      Contact
+      Kontakt
       <Dot />
     </h2>
     <p>
-      Creating something special and want to chat? I would love to listen! Send
-      me a quick email or a DM on linkedind and we can schedule a time to talk.
+      Pracujete na něčem skvělém a chcete, aby o tom věděli ti správní lidé?
+      Pojďme to probrat.
     </p>
     <ul className={styles.contactList}>
       <li>

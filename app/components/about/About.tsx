@@ -8,21 +8,28 @@ export const About = () => {
   return (
     <section id="about">
       <h2>
-        About
+        O mně
         <Dot />
       </h2>
       <div className={styles.aboutContent}>
         <div>
           <p>
-            Hello and welcome! I&apos;m Lukas, a content marketing expert who
-            helps tech companies to create organic revenue streams. Throughout
-            my 10+ years career in the tech industry, I&apos;ve been designing
-            and executing comprehensive content that drives demand / lead
-            generation, and boosts brand visibility.
+            Vítejte na mé stránce! Jmenuji se Lukáš a už více než 10 let pomáhám
+            technologickým B2B firmám růst pomocí organického obsahu.
+            Specializuji se na strategie, plánování a tvorbu obsahu. Obsahu,
+            který generuje poptávku, obchodní příležitosti a buduje viditelnost
+            značky.
           </p>
           <p>
-            Do you have a tech you want to get in front of your prospects? I can
-            help you out.
+            Je pro mě přirozené tvořit v angličtině a češtině, a to v různých
+            formátech dle konkrétních potřeb. Typicky se jedná o webové stránky,
+            blogy, landing pages, nejrůznější produktové materiály (solution
+            briefs), tiskové zprávy, případové studie, reklamní copy nebo white
+            papery.
+          </p>
+          <p>
+            Pracujete na něčem skvělém a chcete, aby o tom věděli ti správní
+            lidé? Pojďme to probrat.
           </p>
         </div>
         <div>

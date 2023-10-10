@@ -1,6 +1,7 @@
 /* eslint-disable import/no-duplicates */
 import type { IconType } from 'react-icons';
 import { BsFillClipboardDataFill } from 'react-icons/bs';
+import { BsSearchHeart } from 'react-icons/bs';
 import { GiWoodenCrate } from 'react-icons/gi';
 import { PiTelevisionBold, PiStrategyBold } from 'react-icons/pi';
 import { SiWritedotas } from 'react-icons/si';
@@ -17,33 +18,39 @@ type ServicesArray = {
 
 const services: ServicesArray = [
   {
-    heading: 'Content strategy',
+    heading: 'Obsahová strategie',
     service:
-      'Developing and executing content strategy, setting up plans, creating content hubs, managing content calendars and workflows attracting and engaging prospects, building trust and authority.',
+      'Vytvořím obsahovou strategii dle vize a cílů vaší firmy. Získáte srozumitelný dlouhodobý plán a jasno v tom, proč, pro koho a jaký obsah tvořit, aby podporoval byznys.',
     icon: PiStrategyBold as unknown as IconType,
+  },
+  {
+    heading: 'SEO Copywriting',
+    service:
+      'Napíšu autentické, přesné a poutavé copy, díky kterému budete těžit z obsahu, který dlouhodobě přináší organickou návštěvnost, generuje poptávku i konverze.',
+    icon: BsSearchHeart as unknown as IconType,
   },
   {
     heading: 'Copywriting',
     service:
-      'Creating high-quality, spot-on and engaging copy for various channels including blogs, websites, data sheets, solution briefs, email marketing etc. SEO optimized if needed.',
+      'Vytvořím copy pro solution briefy, firemní profily, tiskové zprávy, reklamy a další offline i online materiály, které zesílí povědomí o vaší značce a budou budovat její autoritu.',
     icon: SiWritedotas as unknown as IconType,
   },
   {
-    heading: 'Product marketing',
+    heading: 'Produktový marketing',
     service:
-      'Developing a compelling product positioning and messaging that resonates with target audiences and establishes a competitive edge.',
+      'Pomohu definovat hodnotu, benefity, a unique selling points produktu, správně popsat jeho funkce a use cases. Budete tak mít jistotu správného messagingu směrem k zákazníkům.',
     icon: GiWoodenCrate as unknown as IconType,
   },
   {
     heading: 'Media relations',
     service:
-      'Building relationships with key media outlets, media tiering, pitching stories to journalists and other activities to increase brand visibility and thought leadership.',
+      'Pomáhám navázat vztahy s médii prostřednictvím pravidelné komunikace vašich témat a příběhů. Ve finále budete těžit z lepší viditelnosti značky a autority jejích představitelů.',
     icon: PiTelevisionBold as unknown as IconType,
   },
   {
-    heading: 'Data analytics',
+    heading: 'Datová analytika',
     service:
-      'Using analytics tools to make data-driven decisions, measuring the effectiveness of content and PR campaigns.',
+      'Identifikuji klíčové metriky a nastavím reporting tak, abyste měli správná data pro svá rozhodnutí. Ať už se bude týkat volby témat, kanálů, plánování, či zlepšování efektivity obsahu.',
     icon: BsFillClipboardDataFill as unknown as IconType,
   },
 ];
@@ -51,7 +58,7 @@ const services: ServicesArray = [
 export const Services = () => (
   <section id="services">
     <h2>
-      Services
+      S čím mohu pomoci
       <Dot />
     </h2>
     <div>

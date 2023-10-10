@@ -8,8 +8,9 @@ import styles from './Heading.module.css';
 export const Heading = () => (
   <section className={styles.headingBox} id="home">
     <h1>
-      Hi, I&apos;m Lukas
-      <br />I create profitable content for B2B tech
+      Lukáš Dolníček
+      <br />
+      Obsahová strategie a copywriting pro technologické firmy
       <Dot />
     </h1>
     <GetInTouchButton />
