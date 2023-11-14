@@ -2,16 +2,11 @@ import React from 'react';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { BsMailbox } from 'react-icons/bs';
 
-import { Dot } from '../dot/Dot';
-
 import styles from './Contact.module.css';
 
 export const Contact = () => (
   <section id="contact">
-    <h2>
-      Kontakt
-      <Dot />
-    </h2>
+    <h2>Kontakt</h2>
     <p>
       Pracujete na něčem skvělém a chcete, aby o tom věděli ti správní lidé?
       Pojďme to probrat.

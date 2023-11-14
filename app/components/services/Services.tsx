@@ -6,8 +6,6 @@ import { GiWoodenCrate } from 'react-icons/gi';
 import { PiTelevisionBold, PiStrategyBold } from 'react-icons/pi';
 import { SiWritedotas } from 'react-icons/si';
 
-import { Dot } from '../dot/Dot';
-
 import styles from './Services.module.css';
 
 type ServicesArray = {
@@ -57,10 +55,7 @@ const services: ServicesArray = [
 
 export const Services = () => (
   <section id="services">
-    <h2>
-      S čím mohu pomoci
-      <Dot />
-    </h2>
+    <h2>S čím mohu pomoci</h2>
     <div>
       <div className={styles.serviceBox}>
         {services.map((service) => (

@@ -1,6 +1,5 @@
 import Link from 'next/link';
 
-import { Dot } from '../dot/Dot';
 import { ListItem } from '../listItem/ListItem';
 
 import styles from './RecentWriting.module.css';
@@ -12,10 +11,7 @@ export const RecentWriting = () => {
 
   return (
     <section>
-      <h2>
-        Recent Writing
-        <Dot />
-      </h2>
+      <h2>Recent Writing</h2>
       <ul className={styles.postList}>
         {posts.slice(0, 4).map((post) => (
           <ListItem

@@ -1,16 +1,11 @@
 import Image from 'next/image';
 
-import { Dot } from '../dot/Dot';
-
 import styles from './About.module.css';
 
 export const About = () => {
   return (
     <section id="about">
-      <h2>
-        O mně
-        <Dot />
-      </h2>
+      <h2>O mně</h2>
       <div className={styles.aboutContent}>
         <div>
           <p>

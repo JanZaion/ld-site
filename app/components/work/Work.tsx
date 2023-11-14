@@ -1,11 +1,6 @@
-import { Dot } from '../dot/Dot';
-
 export const Work = () => (
   <section id="work">
-    <h2>
-      Ukázky mé práce
-      <Dot />
-    </h2>
+    <h2>Ukázky mé práce</h2>
     <p>
       Postavení organického kanálu který v současnosti generuj ⅔ všech MQLs pro
       SaaS vendora z oboru zabezpečení přístupu k firemním datům, aplikacím a
