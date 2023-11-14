@@ -7,7 +7,7 @@ import styles from './Heading.module.css';
 export const Heading = () => (
   <section className={styles.headingBox} id="home">
     <h1>
-      Lukáš Dolníček
+      <span className={styles.lucas}>Lukáš Dolníček</span>
       <br />
       Obsahová strategie a copywriting pro technologické firmy
     </h1>
