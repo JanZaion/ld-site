@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillLinkedin } from 'react-icons/ai';
-import { BsMailbox } from 'react-icons/bs';
+import { IoIosMail } from 'react-icons/io';
 
 import styles from './Contact.module.css';
 
@@ -18,7 +18,7 @@ export const Contact = () => (
           rel="noreferrer"
           target="_blank"
         >
-          <BsMailbox className={styles.contactIcon} />
+          <IoIosMail className={styles.contactIcon} />
           lucas@dolnicek.whatever
         </a>
       </li>

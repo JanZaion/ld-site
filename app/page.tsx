@@ -1,7 +1,6 @@
 import { About } from './components/about/About';
 import { Contact } from './components/contact/Contact';
 import { Heading } from './components/heading/Heading';
-import { RecentWriting } from './components/recentWriting/RecentWriting';
 import { Services } from './components/services/Services';
 import { Work } from './components/work/Work';
 
@@ -12,7 +11,7 @@ const Home = () => {
       <About />
       <Services />
       <Work />
-      <RecentWriting />
+      {/* <RecentWriting /> */}
       <Contact />
     </main>
   );

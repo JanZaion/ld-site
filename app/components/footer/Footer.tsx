@@ -5,7 +5,9 @@ import styles from './Footer.module.css';
 export const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <span>© 2023 Lukas Dolnicek - lucas@dolnicek.whatever</span>
+      <span>
+        © 2023 Lukas Dolnicek - lucas@dolnicek.whatever - Powered by Incel
+      </span>
 
       <a
         className={styles.linkedinIcon}
