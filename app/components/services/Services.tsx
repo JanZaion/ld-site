@@ -18,13 +18,13 @@ const services: ServicesArray = [
   {
     heading: 'Obsahová strategie',
     service:
-      'Vytvořím obsahovou strategii dle vize a cílů vaší firmy. Získáte srozumitelný dlouhodobý plán a jasno v tom, proč, pro koho a jaký obsah tvořit, aby podporoval byznys.',
+      'Navrhnu obsahovou strategii dle vize a cílů vaší firmy. Získáte srozumitelný dlouhodobý plán a jasno v tom, proč, pro koho a jaký obsah tvořit.',
     icon: PiStrategyBold as unknown as IconType,
   },
   {
     heading: 'SEO Copywriting',
     service:
-      'Napíšu autentické, přesné a poutavé copy, díky kterému budete těžit z obsahu, který dlouhodobě přináší organickou návštěvnost, generuje poptávku i konverze.',
+      'Napíšu autentické, přesné a poutavé copy, díky kterému budete těžit z obsahu, který dlouhodobě přináší organickou návštěvnost, generuje poptávku a konverze.',
     icon: BsSearchHeart as unknown as IconType,
   },
   {
@@ -42,11 +42,11 @@ const services: ServicesArray = [
   {
     heading: 'Media relations',
     service:
-      'Pomáhám navázat vztahy s médii prostřednictvím pravidelné komunikace vašich témat a příběhů. Ve finále budete těžit z lepší viditelnosti značky a autority jejích představitelů.',
+      'Navážu vztahy s médii prostřednictvím pravidelné komunikace vašich témat a příběhů. Ve finále budete těžit z lepší viditelnosti značky a autority jejích představitelů.',
     icon: PiTelevisionBold as unknown as IconType,
   },
   {
-    heading: 'Datová analytika',
+    heading: 'Analytika',
     service:
       'Identifikuji klíčové metriky a nastavím reporting tak, abyste měli správná data pro svá rozhodnutí. Ať už se bude týkat volby témat, kanálů, plánování, či zlepšování efektivity obsahu.',
     icon: BsFillClipboardDataFill as unknown as IconType,
